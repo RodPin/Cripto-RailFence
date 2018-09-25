@@ -1,0 +1,20 @@
+RAIL FENCE:
+ 
+
+Encriptação:
+
+1- Escolhe-se uma chave
+2- Essa chave ser o numero de fences
+3- Cada caractere da mensagem deve ser escrita pra baixo ou pra cima  na diagonal, de acordo com os fences
+Começa-se descendo até o numero de fencesapós atingir o numero de rail deve-se subir,e depois descer denovo e assim 
+sucessivamente,sempre na diagonal
+4- depois é só agrupar os caracteres de cada linha(fence)juntar tudo no final , sempre de cima pra baixo
+
+Decriptação:
+
+sabendo a chave:
+1- achamos o ciclo : Ciclo = 2*chave - 2
+2- achamos o numero de ciclos: (NºLetrasMsg/C)
+2- achamos o ciclo incompleto: (numero de letras na mensageem - (numero de letras por ciclo * ciclo)
+3- completar na horizontal de acordo com o achado nos items 1 e 2
+4- ler na diagonal subindo e descendo para obter a mensagem descriptada

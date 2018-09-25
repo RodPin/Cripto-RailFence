@@ -1,0 +1,5 @@
+O método utilizado para o quebramento da cifra foi o padrão.
+
+Descreve-se as formulas de definir ciclo através da fórmula (C=2k-2),a quantidade de ciclos (NºLetrasMsg/C) e os demais ciclos incompletos (NºLetrasMsg-(NºletrasPorCiclo*ciclo)),arrumar na horizontal de acordo com esses dados,
+e depois ler na diagonal
+Testa-se as chaves possiveis uma a uma até obter a quebra de acordo com o descrito acima
